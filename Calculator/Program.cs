@@ -32,6 +32,8 @@ namespace CalculatorLab
             Console.WriteLine("***** Power() test *****");
             calc.Test(calc.Power(100, 3), 1000000);
             Console.ReadKey();
+
+            Console.WriteLine("A little change");
         }
     }
 }

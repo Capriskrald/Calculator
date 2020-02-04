@@ -17,6 +17,7 @@ namespace CalculatorLab.Test.Unit
         {
             uut = new Calculator();
         }
+        // A little change 
 
         [TestCase(5.0, 10.0, 15.0)]
         [TestCase(-5.0, -10.0, -15.0)]
